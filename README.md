@@ -9,14 +9,19 @@
 ## Deployment
 **Clone the public repository using git :**
 ```
-- git clone https://github.com/keremaksoy/node-mongo-k8s.git
+git clone https://github.com/keremaksoy/node-mongo-k8s.git
 ```
 **Start Minikube :**
-- minikube start
-
+```
+minikube start
+```
 **Point local Docker environment to minikube :**
-- eval $(minikube docker-env)  ( Linux )
-- & minikube -p minikube docker-env | Invoke-Expression ( Windows )
+```
+eval $(minikube docker-env)  ( Linux )
+```
+```
+& minikube -p minikube docker-env | Invoke-Expression ( Windows )
+```
 
 **Build Docker image :**
 - docker-compose build
