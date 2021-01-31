@@ -8,8 +8,9 @@
 
 ## Deployment
 **Clone the public repository using git :**
+```
 - git clone https://github.com/keremaksoy/node-mongo-k8s.git
-
+```
 **Start Minikube :**
 - minikube start
 
