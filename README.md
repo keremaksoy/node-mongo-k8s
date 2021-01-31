@@ -1,11 +1,11 @@
 # Nodejs , MongoDB  on Kubernetes
-### Prerequisites
+## Prerequisites
 - Git supposed to be installed on the system ( [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Git installation guide") )
 - Minikube must be installed and running ( [install Minikube](https://kubernetes.io/docs/tasks/tools/ "installng minikube") )
 - Helm must be installed ( [install Helm](https://helm.sh/docs/intro/install/ "installing Helm") )
 - Docker supposed to be installed ( [install Docker](https://docs.docker.com/get-docker/ "install docker") )
 
-### Deployment
+## Deployment
 **Clone the public repository using git :**
 - git clone https://github.com/keremaksoy/node-mongo-k8s.git
 
