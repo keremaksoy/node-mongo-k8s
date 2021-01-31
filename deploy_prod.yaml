@@ -20,7 +20,6 @@ spec:
         env:
           - name: NODE_ENV
             value: "prod"
-        imagePullPolicy: Never
-        
+        imagePullPolicy: Never        
         ports:
         - containerPort: 4000
