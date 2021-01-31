@@ -16,11 +16,12 @@ git clone https://github.com/keremaksoy/node-mongo-k8s.git
 minikube start
 ```
 **Point local Docker environment to minikube :**
-Linux :
+
+*Linux :*
 ```
 eval $(minikube docker-env)
 ```
-Windows :
+*Windows :*
 ```
 & minikube -p minikube docker-env | Invoke-Expression ( Windows )
 ```
