@@ -6,7 +6,7 @@
 - Docker supposed to be installed ( [install Docker](https://docs.docker.com/get-docker/ "install docker") )
 
 ### Deployment
-**Clone the puplic repository using git :**
+**Clone the public repository using git :**
 - git clone https://github.com/keremaksoy/node-mongo-k8s.git
 
 **Start Minikube :**
