@@ -7,7 +7,6 @@ var db;
 
 MongoClient.connect(config.DB, function (err, database) {
     if (err) {
-        console.log(`connection string : ${config.DB}`)
         console.log(`error on database connection : ${err}`)
     }
     else {
