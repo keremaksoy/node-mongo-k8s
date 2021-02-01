@@ -23,7 +23,7 @@ eval $(minikube docker-env)
 ```
 *Windows :*
 ```
-& minikube -p minikube docker-env | Invoke-Expression ( Windows )
+& minikube -p minikube docker-env | Invoke-Expression
 ```
 
 **Build Docker image :**
